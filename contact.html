@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Wawendo Fashions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts for luxury feel -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =========================
+       HEADER / NAVIGATION
+  ========================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="index.html">Wawendo</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="lookbook.html">Lookbook</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="menu-toggle" class="menu-toggle">☰</div>
+    </div>
+  </header>
+
+  <!-- =========================
+       HERO / INTRO SECTION
+  ========================== -->
+  <section class="contact-hero">
+    <div class="container hero-container">
+      <h1>Let’s Begin the Conversation</h1>
+      <p>
+        We welcome private clients, bespoke commissions, press inquiries, and creative collaborations. 
+        Every conversation begins with intention and refinement — the first step to creating pieces 
+        that are timeless and unforgettable.
+      </p>
+    </div>
+  </section>
+
+  <!-- =========================
+       CONTACT INFORMATION
+  ========================== -->
+  <section class="contact-info">
+    <div class="container info-container">
+      <div class="info-item">
+        <h3>Studio</h3>
+        <p>Westlands, Nairobi, Kenya</p>
+        <p>Phone: +254 712 345 678</p>
+      </div>
+      <div class="info-item">
+        <h3>Email</h3>
+        <p>General: contact@wawendofashions.com</p>
+        <p>Press: press@wawendofashions.com</p>
+      </div>
+      <div class="info-item">
+        <h3>Social</h3>
+        <p>Instagram: @wawendofashions</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       CONTACT FORM
+  ========================== -->
+  <section class="contact-form-section">
+    <div class="container form-container">
+      <form action="#" method="POST" class="contact-form">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-row">
+          <input type="tel" name="phone" placeholder="Phone Number">
+          <select name="subject" required>
+            <option value="" disabled selected>Subject</option>
+            <option value="custom-order">Custom Order</option>
+            <option value="appointment">Appointment</option>
+            <option value="press">Press Inquiry</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="general">General Inquiry</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        </div>
+        <div class="form-row submit-row">
+          <button type="submit">Send Inquiry</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Wawendo Fashions. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- =========================
+       MAIN JS
+  ========================== -->
+  <script src="main.js"></script>
+
+</body>
+</html>
