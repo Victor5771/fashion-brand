@@ -41,7 +41,7 @@ window.addEventListener("scroll", () => {
 /* =========================
    SCROLL REVEAL FOR IMAGE TEXT
 ========================= */
-const textBlocks = document.querySelectorAll(".image-text");
+const textBlocks = document.querySelectorAll(".look-text");
 
 const revealText = () => {
   const windowHeight = window.innerHeight;
