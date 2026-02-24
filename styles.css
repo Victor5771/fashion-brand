@@ -1365,3 +1365,8 @@ a {
     display: block;
   }
 }
+
+.image-text {
+    opacity: 1 !important;
+    transform: none !important;
+}
